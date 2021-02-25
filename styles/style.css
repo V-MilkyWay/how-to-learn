@@ -1,4 +1,6 @@
 .page {
+  display: flex;
+  flex-direction: column;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -7,12 +9,18 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
+  border: 1px solid red;
 }
 
 .header {
+  display: flex;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  border: 1px solid red;
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +36,78 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+  position: absolute;
+  height: 32px;
+  width: 183px;
+  margin-top: 32px;
+  margin-left: 64px;
+  border: 1px solid red;
+}
+
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.title {
+  display: flex;
+  align-self: center;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  width: 730px;
+  color: #000000;
+  border: 1px solid red;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.subtitle {
+  position: absolute;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  width: 388px;
+  bottom:  32px;
+  color: #000000;
+  border: 1px solid red;
+  left: 64px;
+  z-index: 2;
+}
+
+.main-illustration {
+  position: absolute;
+  height: 608px;
+  width: 765px;
+  background-image: url(../images/header-image.png);
+  background-size: 100%;
+  bottom: 0px;
+  right: 0px;
+  border: 1px solid red;
+  z-index: 1;
+}
+
+.square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background-color:  #2f80ed;
+  top: 64px;
+  right: 0px;
+  border: 1px solid red;
+  z-index: 0;
+}
+
+.content {
+  height: 350px;
+  width: 100%;
+  background-color: #ffffff;  
+}
+
+.footer {
+  height: 350px;
+  width: 100%;
+  background-color: #1f1f1f; 
 }
