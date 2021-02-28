@@ -38,7 +38,7 @@
 }
 
 .logo {
-  height: 35px;
+  width: 183px;
 }
 
 .logo__place_header {
@@ -79,12 +79,10 @@
   color: #2f80ed;
 }
 
-.header__main-illustration {
+.header__main-illustration img {
   position: absolute;
   height: 608px;
   width: 765px;
-  background-image: url(../images/header-image.png);
-  background-size: 100%;
   bottom: 0px;
   right: 0px;
   z-index: 1;
@@ -346,7 +344,7 @@ color: #ffffff;
 
 .logo__place_footer {
   display: flex;
-  width: 183px;
+  height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
 
