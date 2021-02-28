@@ -81,6 +81,12 @@ section {
   z-index: 2;
 }
 
+.subtitle__link {
+  font-weight: normal;
+  color: #2f80ed;
+  border: 1px solid red;
+}
+
 .main-illustration {
   position: absolute;
   height: 608px;
@@ -255,12 +261,24 @@ section {
 
 .feynman {
   display: flex;
+  position: relative;
   flex-flow: column;
   align-items: center;
   padding-top: 100px;
   height: 790px;
   background: url(../images/feynman.png) left bottom no-repeat;
   border: 1px solid rgb(200, 255, 0);
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  border: 1px solid red;
 }
 
 .feynman__title {
@@ -464,4 +482,9 @@ color: #ffffff;
 .column__column-link_img_ig::after {
   margin-left: 10px;
   content: 'Instagram'
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
 }
