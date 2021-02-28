@@ -10,9 +10,9 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <logo class="logo logo__place_header"></logo>
       <title class="header__title">Научиться учиться</title>
-      <subtitle class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</subtitle>
+      <subtitle class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? Узнать &rarr;</subtitle>
       <link>
       <main-illustration class="main-illustration"></main-illustration>
       <square-pic class="square-pic"></square-pic>
@@ -225,7 +225,32 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="logo logo_place_footer"></div>  
+      <columns class="columns">
+        <column class="column column__content_copyright">
+          <logo class="logo logo__place_footer"></logo>
+          <author class="author">&copy; 2021. Владислав Милушков</author>
+        </column>
+        <column class="column column__content_info">
+          <column-heading class="column__column-heading">О Практикуме</column-heading>
+          <column-links class="column__column-links">
+            <column-link class="column-links__column-link">Главная</column-link>
+            <column-link class="column-links__column-link">Концепция</column-link>
+            <column-link class="column-links__column-link">Наставники</column-link>
+          </column-links>
+        </column>
+        <column class="column column__content_social">
+          <column-heading class="column__column-heading">Соцсети</column-heading>
+          <column-link class="column__column-link column__column-link_img_fb">
+            <social-icon class="column-link__social-icon column-link__social-icon_img_fb"></social-icon>
+          </column-link>
+          <column-link class="column__column-link column__column-link_img_vk">
+            <social-icon class="column-link__social-icon column-link__social-icon_img_vk"><social-icon>
+          </column-link>
+          <column-link class="column__column-link column__column-link_img_ig">
+            <social-icon class="column-link__social-icon column-link__social-icon_img_ig"><social-icon>
+          </column-link>
+        </column>
+    </columns>
     </footer>
   </div>
 </body>
