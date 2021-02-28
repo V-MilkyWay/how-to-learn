@@ -23,11 +23,6 @@
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -117,7 +112,7 @@
 .brief {
   width: 175px;
   font-size: 24px;
-  line-height: 1.2; 
+  line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
 }
@@ -148,14 +143,14 @@
   margin-top:30px;
   margin-bottom:30px;
   font-size: 24px;
-  line-height: 34px; 
+  line-height: 34px;
   font-weight: normal; 
 }
 
 .span {
   margin-right: 10px;
   font-size: 24px;
-  line-height: 34px; 
+  line-height: 34px;
   font-weight: bold; 
 }
 .digits {
@@ -420,17 +415,17 @@ color: #ffffff;
 
 .column__column-link_img_vk::after {
   margin-left: 10px;
-  content: 'Вконтакте'
+  content: 'Вконтакте';
 }
 
 .column__column-link_img_fb::after {
   margin-left: 10px;
-  content: 'Facebook'
+  content: 'Facebook';
 }
 
 .column__column-link_img_ig::after {
   margin-left: 10px;
-  content: 'Instagram'
+  content: 'Instagram';
 }
 
 a{
