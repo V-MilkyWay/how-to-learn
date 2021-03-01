@@ -390,7 +390,6 @@ color: #ffffff;
   border: 1px solid red;
 }
 .footer__column-link {
-  display: flex;
   display: inline-block;
   text-decoration: none;
   line-height: 30px;
@@ -401,12 +400,15 @@ color: #ffffff;
 }
 
 .footer__column_content_social {
+  margin: 0;
   display: flex;
   flex-flow: column;
   border: 1px solid red;
 }
 
 .footer__social-icon {
+  position: relative;
+  margin-right: 10px;
   height: 16px;
   width: 16px;
   border: 1px solid red;
