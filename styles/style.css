@@ -407,9 +407,7 @@ color: #ffffff;
 }
 
 .footer__social-icon {
-  align-self: center;
   height: 16px;
   width: 16px;
-  background-repeat: no-repeat;
   border: 1px solid red;
 }
