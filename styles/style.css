@@ -11,7 +11,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 1px solid red;
 }
 
 .header {
@@ -21,7 +20,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  border: 1px solid red;
   /* выше установили ограничения для секции */
 }
 
@@ -32,12 +30,10 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  border: 1px solid red;
 }
 
 .logo {
   width: 183px;
-  border: 1px solid red;
 }
 
 .logo_place_header {
@@ -46,7 +42,6 @@
   left: 64px;
   height: 32px;
   width: 183px;
-  border: 1px solid red;
 }
 
 .header__title {
@@ -59,7 +54,6 @@
   color: #000000;
   margin-left: 64px;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -72,13 +66,11 @@
   color: #000000;
   left: 64px;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .header__link {
   font-weight: normal;
   color: #2f80ed;
-  border: 1px solid red;
 }
 
 .header__main-illustration {
@@ -88,7 +80,6 @@
   bottom: 0px;
   right: 0px;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .header__square-pic {
@@ -99,26 +90,22 @@
   top: 64px;
   right: 0px;
   z-index: 0;
-  border: 1px solid red;
 }
 
 .content {
   background-color: #ffffff; 
-  border: 1px solid red; 
 }
 
 .description {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   margin-top:100px;
-  width: 80%;  
-  border: 1px solid red;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -128,21 +115,17 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
-  border: 1px solid red;
 }
-
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  border: 1px solid red;
 }
 
 .two-columns__paragraph {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .two-columns__text {
@@ -150,7 +133,6 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  border: 1px solid red;
 }
 
 .two-columns__text_center_space {
@@ -162,8 +144,7 @@
   margin-right: 10px;
   font-size: 24px;
   line-height: 34px;
-  font-weight: bold; 
-  border: 1px solid red;
+  font-weight: bold;
 }
 
 .digits {
@@ -172,19 +153,16 @@
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #ffffff;  
-  border: 1px solid red;
+  background-color: #ffffff;
 }
 .section-title {
   margin: 0;
   width: 60%;
   margin-bottom: 20px;
-  border: 1px solid red;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .section-subtitle {
@@ -194,17 +172,14 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .table {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   width: 1100px;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .table__cell { 
@@ -212,7 +187,6 @@
   flex-flow: column;
   width: 250px;
   margin-top: 60px;
-  border: 1px solid red;
 }
 
 .table__heading {
@@ -221,7 +195,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .table__text {
@@ -230,7 +203,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .feynman {
@@ -241,7 +213,6 @@
   padding-top: 100px;
   min-height: 790px;
   background: url(../images/feynman.png) left bottom no-repeat;
-  border: 1px solid red;
   background-color: #f2f2f2;
 }
 
@@ -253,7 +224,6 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
-  border: 1px solid red;
 }
 
 .feynman__title {
@@ -266,7 +236,6 @@
   font-size: 120px;
   font-weight: bold;
   color: #000000;
-  border: 1px solid red;
 }
 
 .feynman__subtitle {
@@ -276,7 +245,6 @@
   line-height: 51px;
   color: #000000;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .kaufman {
@@ -287,8 +255,7 @@
   overflow: hidden;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #1f1f1f; 
-  border: 1px solid red;
+  background-color: #1f1f1f;
 }
 
 .kaufman__triangle {
@@ -299,7 +266,6 @@
   margin-top: -90px;
   margin-right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
-  border: 1px solid red;
   z-index: 0;
   background-size: 100%;
 }
@@ -315,7 +281,6 @@ color: #ffffff;
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
-  border: 1px solid red; 
 }
 
 .table__heading_theme_dark {
@@ -325,8 +290,6 @@ color: #ffffff;
 .table__text_theme_dark {
 color: #ffffff;
 }
-
-
 
 .footer {
   display: flex;
@@ -338,7 +301,6 @@ color: #ffffff;
   width: 100%;
   background-color: #1f1f1f; 
   box-sizing: content-box;
-  border: 1px solid red;
 }
 
 .footer__columns {
@@ -346,12 +308,10 @@ color: #ffffff;
   justify-content: space-between;
   flex-basis: 711px;
   width: 90%;
-  border: 1px solid red;
 }
 
 .logo_place_footer {
   height: 35px;
-  border: 1px solid red;
 }
 
 .footer__column_content_copyright {
@@ -359,7 +319,6 @@ color: #ffffff;
   flex-basis: 711px;
   flex-flow: column;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .footer__author {
@@ -370,7 +329,6 @@ color: #ffffff;
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  border: 1px solid red;
 }
 
 
@@ -382,12 +340,10 @@ color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-  border: 1px solid red;
 }
 .footer__column-links {
   display: flex;
-  flex-flow: column; 
-  border: 1px solid red;
+  flex-flow: column;
 }
 .footer__column-link {
   display: inline-block;
@@ -396,14 +352,12 @@ color: #ffffff;
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  border: 1px solid red;
 }
 
 .footer__column_content_social {
   margin: 0;
   display: flex;
   flex-flow: column;
-  border: 1px solid red;
 }
 
 .footer__social-icon {
@@ -411,5 +365,4 @@ color: #ffffff;
   margin-right: 10px;
   height: 16px;
   width: 16px;
-  border: 1px solid red;
 }
