@@ -301,6 +301,7 @@ color: #ffffff;
 }
 
 .footer__columns {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   width: 90%;
