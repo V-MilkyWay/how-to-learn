@@ -6,6 +6,6 @@
   
 ## **Used technologies:**  
   
- 1. **BEM** (*Block, Element, Modifier*) is a component approach to web development based on the principle of dividing the interface into independent blocks. BEM is used in Yandex for frontend development.  
+ 1. **BEM** (*Block, Element, Modifier*) - is a component approach to web development based on the principle of dividing the interface into independent blocks. BEM is used in Yandex for frontend development.  
   
  2. **Iframe** - technology-designed for embedding third-party web pages in our project. 
