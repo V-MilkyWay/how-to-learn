@@ -1,7 +1,7 @@
 .video_iframe {
     display: flex;
     width: 515px;
-    height: 316px; 
+    height: 316px;
 }
 
 .video_iframe:nth-child(1) {
